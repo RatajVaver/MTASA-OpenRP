@@ -1,0 +1,5 @@
+<meta>
+	<info author="OpenRPdevs" type="script" version="1.0" description="OpenRP-tablist"/>
+
+	<script src="client.lua" type="client"/>
+</meta>

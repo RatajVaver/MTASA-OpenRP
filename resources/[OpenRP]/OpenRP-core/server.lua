@@ -10,8 +10,9 @@
 ]]--
 
 function setupServer()
-	setGameType("OpenRP")
+	setGameType("OpenRP v"..currentVersion)
 	setMapName("San Andreas")
 	setRuleValue("OpenRP-version", currentVersion)
+	outputDebugString("OpenRP v"..currentVersion.." initialized successfully!")
 end
 addEventHandler("onResourceStart", resourceRoot, setupServer)

@@ -8,3 +8,8 @@
 	Authors of this specific file: Rataj
 ========================================================================================
 ]]--
+
+function setupClient()
+	setAmbientSoundEnabled("gunfire", false)
+end
+addEventHandler("onClientResourceStart", resourceRoot, setupClient)

@@ -6,4 +6,7 @@
 	<script src="shared.lua" type="shared"/>
 	<script src="config.lua" type="shared"/>
 	<script src="version.lua" type="shared"/>
+	
+	<export function="getVersion" type="shared"/>
+	<export function="getServerName" type="shared"/>
 </meta>

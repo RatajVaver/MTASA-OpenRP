@@ -9,10 +9,10 @@
 ========================================================================================
 ]]--
 
-function getVersion()
-	return currentVersion
+function onLogin()
+	spawnPlayer(source, 1743.0324, -1861.8645, 13.5769, 0, 217, 0, 0) -- Immediately spawn in LS for testing
+	fadeCamera(source, true)
+	setCameraTarget(source, source)
+	setElementData(source, "OpenRP:logged", true, true) -- Fake login for testing
 end
-
-function getServerName()
-	return serverName
-end
+addEventHandler("onPlayerJoin", root, onLogin)
