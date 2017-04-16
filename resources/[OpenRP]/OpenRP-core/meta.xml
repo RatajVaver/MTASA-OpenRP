@@ -9,4 +9,6 @@
 	
 	<export function="getVersion" type="shared"/>
 	<export function="getServerName" type="shared"/>
+	
+	<export function="movePlayerRelative" type="server"/>
 </meta>
